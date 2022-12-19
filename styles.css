@@ -1,22 +1,62 @@
-body{
-    /* background-color: cadetblue; */
-}
+
 
 .jumbotron{
-    height: 50vh;
-    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    
 }
 
-.second-img{
-    height: 45vh;
-}
 
+/* CATERING/MEAL PREP */
 .about-h1{
     text-align: center;
+    margin-top: 50px;
+
 }
 
 .about-cards{
     display: flex;
-    justify-content: space-between;
-    padding: 80px;
+    /* justify-content: space-between; */
+    /* padding: 150px; */
+    margin-left: 100px;
+}
+
+
+
+@media screen and (min-width:600px) {
+    .about-cards{
+        padding: 50px;
+        margin: 0%;
+    }
+    .about-h1{
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .about-cards{
+        padding: 10px;
+        margin-left: 30px;
+        /* flex-direction: column; */
+    }
+}
+
+@media screen and (max-width:350px) {
+    .about-cards{
+        margin: 0%;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-left: 100px;
+    }
+    .about-h1{
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width:280px) {
+    .about-cards{
+        margin-left: 50px;
+    }
 }
