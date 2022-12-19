@@ -1,0 +1,22 @@
+body{
+    /* background-color: cadetblue; */
+}
+
+.jumbotron{
+    height: 50vh;
+    width: 100%;
+}
+
+.second-img{
+    height: 45vh;
+}
+
+.about-h1{
+    text-align: center;
+}
+
+.about-cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
