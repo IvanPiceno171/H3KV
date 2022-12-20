@@ -1,28 +1,33 @@
 
 
-.jumbotron{
+#carouselExampleSlidesOnly{
+    width: 100vw;
+    padding: 10px;
     overflow: hidden;
-    box-sizing: border-box;
-    
+    border-radius: 10%;
+    background-size: cover;
 }
 
+/* NavBar */
+.navbarContain li:hover{
+    background-color: rgba(22, 18, 18, 0.37);
+    transform: scale(1.2);
+    transition: 1.5s;
+}
 
 /* CATERING/MEAL PREP */
+#about-section{
+    height: 30vh;
+}
+
 .about-h1{
     text-align: center;
     margin-top: 50px;
-
 }
-
 .about-cards{
     display: flex;
-    /* justify-content: space-between; */
-    /* padding: 150px; */
     margin-left: 100px;
 }
-
-
-
 @media screen and (min-width:600px) {
     .about-cards{
         padding: 50px;
@@ -38,11 +43,10 @@
     .about-cards{
         padding: 10px;
         margin-left: 30px;
-        /* flex-direction: column; */
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:450px) {
     .about-cards{
         margin: 0%;
         flex-direction: column;
@@ -55,8 +59,48 @@
 }
 
 
-@media screen and (max-width:280px) {
+@media screen and (max-width:300px) {
     .about-cards{
         margin-left: 50px;
     }
+}
+
+
+/* FOOTER */
+
+.container-body{
+    position: relative;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    bottom: -30%;
+}
+
+#footer li:hover{
+    background-color: rgba(22, 18, 18, 0.37);
+    transform: scale(1.1);
+    transition: 1.5s;
+
+}
+
+@media screen and (max-width:450px) {
+    #footer{
+        bottom: -60%;
+    }
+}
+@media screen and (max-width:315px) {
+    #footer{
+        bottom: -90%;
+    }
+}
+@media screen and (max-width:210px) {
+    #footer{
+        bottom: -100%;
+    }
+}
+
+i{
+    font-size: 1.5rem;
 }
