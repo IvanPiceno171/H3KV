@@ -1,0 +1,26 @@
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute;  
+    left: 5%;
+    top: 110px;
+    width: 90%; 
+    height: 80%; 
+    overflow: hidden;
+  }
+
+.modal-content{
+    background-color: rgb(212, 213, 221);
+}
+  #mpModalheader{
+    text-align: center;
+  }
+
+  #finePrint{
+    text-align: center;
+  }
+
+  .close:hover{
+    cursor: pointer;
+  }
