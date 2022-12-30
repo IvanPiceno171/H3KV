@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
-
-
+*{
+    background-color: rgb(212, 213, 221);
+}
 .container-body{
-
+overflow: hidden;
 }
 
 #carouselExampleSlidesOnly{ 
@@ -30,7 +31,7 @@
 #about-section{
     height: 30vh;
     font-family: Monsterrat, sans-serif;
-    text-shadow: 3px 3px 3px #ababab;
+    /* text-shadow: 3px 3px 3px #ababab; */
 }
 
 .about-h1{
@@ -81,10 +82,6 @@
 
 
 /* FOOTER */
-
-.container-body{
-    position: relative;
-}
 
 #footer{
     position: absolute;
