@@ -29,7 +29,7 @@ overflow: hidden;
 
 /* CATERING/MEAL PREP */
 #about-section{
-    height: 30vh;
+    /* height: 30vh; */
     font-family: Monsterrat, sans-serif;
     /* text-shadow: 3px 3px 3px #ababab; */
 }
@@ -62,12 +62,18 @@ overflow: hidden;
 }
 
 @media screen and (max-width:450px) {
+    #about-section{
+        height: 10%;
+    }
     .about-cards{
         margin: 0%;
         flex-direction: column;
         box-sizing: border-box;
         margin-left: 100px;
+        margin-top: 100px;
+        padding: 30px;
     }
+    
     .about-h1{
         margin-top: 10px;
     }
@@ -87,6 +93,7 @@ overflow: hidden;
     position: absolute;
     width: 100%;
     bottom: -30%;
+    position: sticky;
 }
 #footer li{
     font-family: "sofia", sans-serif;
