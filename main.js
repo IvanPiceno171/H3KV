@@ -7,43 +7,31 @@ const cateringButton = document.getElementById('cateringButton')
 const modal = document.getElementById("myModal");
 
 function mealPrepFunction() {
-    console.log("works");
     modal.style.display = "flex";
     prepModalContent.innerHTML = `
         <h1 id='mpModalheader'>Meal Prep Options</h1>
         <hr>    
         <hr>
         <div id='mpList'>
-            <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            </ul>
-        <div>
-        <p id='finePrint'>cost of protein may vary</p>
-    `;
-}
+          <div class="mpImgDiv">
+          <img src="images/drive-download-20230408T034758Z-001/meal-prep1.JPG">  
+          </div>
+          <div>
+          <p id='finePrint'>cost of protein may vary</p>
+          `;
+        }
 
-
-
-cateringButton.addEventListener('click', ()=>{
-    console.log('click')
-    modal.style.display = "flex";
-    prepModalContent.innerHTML = `
-        <h1 id='mpModalheader'>Catering Options</h1>
-        <hr>    
-        <hr>
-        <div id='cateringList'>
-            <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            </ul>
-        <div>
+        
+        
+        cateringButton.addEventListener('click', ()=>{
+            modal.style.display = "flex";
+            prepModalContent.innerHTML = `
+            <h1 id='mpModalheader'>Catering Options</h1>
+            <hr>    
+            <hr>
+            <div id='cateringList'>
+            <img src="images/drive-download-20230408T034758Z-001/seafood-plate.JPG" >  
+            <div>
         <p id='finePrint'>cost of protein may vary</p>
     `;
 })

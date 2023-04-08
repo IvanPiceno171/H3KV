@@ -5,6 +5,7 @@
 }
 .container-body{
 overflow: hidden;
+/* height: 100vh; */
 }
 
 #carouselExampleSlidesOnly{ 
@@ -29,9 +30,7 @@ overflow: hidden;
 
 /* CATERING/MEAL PREP */
 #about-section{
-    /* height: 30vh; */
     font-family: Monsterrat, sans-serif;
-    /* text-shadow: 3px 3px 3px #ababab; */
 }
 
 .about-h1{
@@ -69,8 +68,7 @@ overflow: hidden;
         margin: 0%;
         flex-direction: column;
         box-sizing: border-box;
-        margin-left: 100px;
-        margin-top: 80px;
+        margin-left: 60px;
         padding: 30px;
     }
     
@@ -79,13 +77,6 @@ overflow: hidden;
     }
 }
 
-
-@media screen and (max-width:370px) {
-    .about-cards{
-        margin-left: 50px;
-        margin-top: 50px;
-    }
-}
 
 
 /* FOOTER */
@@ -111,18 +102,33 @@ overflow: hidden;
     #footer{
         bottom: -60%;
     }
+    
 }
 @media screen and (max-width:315px) {
     #footer{
-        bottom: -90%;
+        bottom: -90%;   
     }
 }
 @media screen and (max-width:210px) {
     #footer{
         bottom: -100%;
+        padding-top: 10px;
     }
+
 }
 
 i{
     font-size: 1.5rem;
+}
+
+@media screen and (min-width:450px) and (max-width:600px) {
+    #footer{
+        padding-top: 100px;
+        
+    }
+}
+
+.mpImgDiv > img{
+    height: 250px;
+    width: 250px;
 }
